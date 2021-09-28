@@ -13,6 +13,7 @@ body {
 .icon {
   text-decoration: none;
   color: #000;
+  font-size: 16px;
 }
 
 .header-nav {
@@ -29,23 +30,42 @@ body {
   color: #fff;
   background-color: #000;
   border-radius: 30px;
+  text-align: center;
+  padding: 8px;
 }
-
+.description-title {
+  font-size: 40px;
+}
 .description {
   border-left: 3px solid #69696a;
   color: #69696a;
   text-align: left;
+  padding: 10px;
 }
 .footer {
   background-color: rgba(247, 193, 162, 0.7);
   position: fixed;
   bottom: 0;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
 .footer-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.footer-list {
+  flex-direction: row;
+  list-style: none;
+  display: flex;
 }
 .footer-links {
   list-style: none;
   text-decoration: none;
   color: #69696a;
+  padding: 10px;
 }
