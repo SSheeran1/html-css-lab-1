@@ -1,0 +1,51 @@
+/* resets */
+h1,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "open sans", sans-serif;
+  background-color: #f9fafc;
+}
+
+.icon {
+  text-decoration: none;
+  color: #000;
+}
+
+.header-nav {
+}
+
+.header-links {
+  text-decoration: none;
+  list-style: none;
+  color: #69696a;
+}
+
+.links-oval {
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  border-radius: 30px;
+}
+
+.description {
+  border-left: 3px solid #69696a;
+  color: #69696a;
+  text-align: left;
+}
+.footer {
+  background-color: rgba(247, 193, 162, 0.7);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer-nav {
+}
+.footer-links {
+  list-style: none;
+  text-decoration: none;
+  color: #69696a;
+}
