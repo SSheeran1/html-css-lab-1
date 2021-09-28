@@ -1,13 +1,13 @@
 /* resets */
-h1,
-ul {
+body,
+h1 {
   margin: 0;
-  padding: 0;
 }
 
 body {
   font-family: "open sans", sans-serif;
   background-color: #f9fafc;
+  padding: 20px;
 }
 
 .icon {
@@ -17,15 +17,17 @@ body {
 }
 
 .header-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .header-links {
   text-decoration: none;
-  list-style: none;
   color: #69696a;
 }
 
-.links-oval {
+.accent {
   text-decoration: none;
   color: #fff;
   background-color: #000;
@@ -37,15 +39,16 @@ body {
   font-size: 40px;
 }
 .description {
-  border-left: 3px solid #69696a;
+  border-left: 3px solid #000;
   color: #69696a;
   text-align: left;
-  padding: 10px;
+  padding-left: 10px;
 }
 .footer {
   background-color: rgba(247, 193, 162, 0.7);
   position: fixed;
   bottom: 0;
+  left: 0;
   width: 100%;
   display: flex;
   align-items: center;
@@ -56,13 +59,14 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  list-style: none;
 }
 
 .footer-list {
   flex-direction: row;
-  list-style: none;
   display: flex;
 }
+
 .footer-links {
   list-style: none;
   text-decoration: none;
